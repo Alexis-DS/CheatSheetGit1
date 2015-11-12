@@ -4,6 +4,7 @@
 <head>
 	<link rel="icon" type="image/jpg" href="010101.jpg">
 	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" type="text/css" href="Git.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<title>Quelques commandes de bases Git.</title>
@@ -32,89 +33,91 @@
 		</tr>
 	</table>
 	<br>
-	<table class="table2">
-		<td>
-			<ul>
-				<p>
-					<code>git clone</code>
-					<des>: Pour cloner un dépôt existant, c’est-à-dire, le récupérer sur votre machine</des>
-				</p>
-				<p>
-					<code>git status</code>
-					<des>: Pour connaître les fichiers modifiés récemment</des>
-				</p>
-				<p>
-					<code>git diff</code>
-					<des>: Pour voir ce qui a été changé</des>
-				</p>
-				<p>
-					<code>git add fichier1 fichier2</code>
-					<des>: Pour ajouter des fichiers à prendre en compte lors du commit</des>
-				</p>
-				<p>
-					<code>git commit</code>
-					<des>: Pour faire un commit, ie sauvegarder vos changements</des>
-				</p>
-				<p>
-					<code>git commit -a</code>
-					<des>: Inclure tous les fichiers listés dans git status</des>
-				</p>
-				<p>
-					<code>git commit fichier1 fichier2</code>
-					<des>: Indiquer précisément quels fichiers inclure</des>
-				</p>
-				<p>
-					<code>git log</code>
-					<des>: Visionner les logs</des>
-				</p>
-				<p>
-					<code>git commit –amend</code>
-					<des>: Options utiles: -p ou –statModifier le dernier message de commit</des>
-				</p>
-				<p>
-					<code>git checkout fichier</code>
-					<des>: Restaurer un fichier à son état du dernier commit</des>
-				</p>
-				<p>
-					<code>git pull</code>
-					<des>: Récupérer les nouveautés présentes sur le serveur</des>
-				</p>
-				<p>
-					<code>git push</code>
-					<des>: Envoyer ses propres modifications au serveur</des>
-				</p>
-				<p>
-					<code>git revert idDuCommit</code>
-					<des>: Annulé un commit publié</des>
-				</p>
-				<br>
-				<center>
-					<h3>Les branches</h3>
-				</center>
-				<br>
-				<p>
-					<code>git branch</code>
-					<des>: Voir les branches (l'étoile montre sur laquelle on se trouve)</des>
-				</p>
-				<p>
-					<code>git branch nomBranche</code>
-					<des>: Créer une branche</des>
-				</p>
-				<p>
-					<code>git checkout nomBranche</code>
-					<des>: Se placer dans une branche</des>
-				</p>
-				<p>
-					<code>git merge nomBranche</code>
-					<des>: Fusionner une branche dans la branche où vous vous trouvez</des>
-				</p>
-				<p>
-					<code>git branch -d nomBranche</code>
-					<des>: Supprimer une branche</des>
-				</p>
-			</ul>
-		</td>
-	</table>
+	<center>
+		<table class="table2">
+			<td>
+				<ul>
+					<p>
+						<code>git clone</code>
+						<des>: Pour cloner un dépôt existant, c’est-à-dire, le récupérer sur votre machine</des>
+					</p>
+					<p>
+						<code>git status</code>
+						<des>: Pour connaître les fichiers modifiés récemment</des>
+					</p>
+					<p>
+						<code>git diff</code>
+						<des>: Pour voir ce qui a été changé</des>
+					</p>
+					<p>
+						<code>git add fichier1 fichier2</code>
+						<des>: Pour ajouter des fichiers à prendre en compte lors du commit</des>
+					</p>
+					<p>
+						<code>git commit</code>
+						<des>: Pour faire un commit, ie sauvegarder vos changements</des>
+					</p>
+					<p>
+						<code>git commit -a</code>
+						<des>: Inclure tous les fichiers listés dans git status</des>
+					</p>
+					<p>
+						<code>git commit fichier1 fichier2</code>
+						<des>: Indiquer précisément quels fichiers inclure</des>
+					</p>
+					<p>
+						<code>git log</code>
+						<des>: Visionner les logs</des>
+					</p>
+					<p>
+						<code>git commit –amend</code>
+						<des>: Options utiles: -p ou –statModifier le dernier message de commit</des>
+					</p>
+					<p>
+						<code>git checkout fichier</code>
+						<des>: Restaurer un fichier à son état du dernier commit</des>
+					</p>
+					<p>
+						<code>git pull</code>
+						<des>: Récupérer les nouveautés présentes sur le serveur</des>
+					</p>
+					<p>
+						<code>git push</code>
+						<des>: Envoyer ses propres modifications au serveur</des>
+					</p>
+					<p>
+						<code>git revert idDuCommit</code>
+						<des>: Annulé un commit publié</des>
+					</p>
+					<br>
+					<center>
+						<h3>Les branches</h3>
+					</center>
+					<br>
+					<p>
+						<code>git branch</code>
+						<des>: Voir les branches (l'étoile montre sur laquelle on se trouve)</des>
+					</p>
+					<p>
+						<code>git branch nomBranche</code>
+						<des>: Créer une branche</des>
+					</p>
+					<p>
+						<code>git checkout nomBranche</code>
+						<des>: Se placer dans une branche</des>
+					</p>
+					<p>
+						<code>git merge nomBranche</code>
+						<des>: Fusionner une branche dans la branche où vous vous trouvez</des>
+					</p>
+					<p>
+						<code>git branch -d nomBranche</code>
+						<des>: Supprimer une branche</des>
+					</p>
+				</ul>
+			</td>
+		</table>
+	</center>
 	<center>
 		<span class="copyright" dir="ltr">© 2015 Alexis</span>
 	</center>
